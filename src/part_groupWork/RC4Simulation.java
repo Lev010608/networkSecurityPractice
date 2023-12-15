@@ -1,3 +1,5 @@
+package part_groupWork;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ public class RC4Simulation {
         Scanner scanner = new Scanner(System.in);
 
         // 输入明文
-        System.out.print("请输入要加密的字符串（仅限字母、数字和标点符号,不能有空格）: ");
+        System.out.print("请输入要加密的字符串（仅限字母、中文、数字和标点符号,不能有空格）: ");
         String plaintext = scanner.nextLine();
 
         // 输入密钥
